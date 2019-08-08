@@ -29,7 +29,7 @@ main(List<String> args) {
   print(isworking);
 
   //number
-  num age = 12.321321;
+  num age = 12;
   age = 12.321321;
   age += 30;
   print(age);
@@ -43,5 +43,10 @@ main(List<String> args) {
 
   String title = 'HELLO word !!';
   title = title + ' My Kittess!';
+  print(title);
+
+  print(title.substring(1,7));
+
+  title = title.replaceAll(' ', 'zzzz');
   print(title);
 }
