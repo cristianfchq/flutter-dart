@@ -49,4 +49,10 @@ main(List<String> args) {
 
   title = title.replaceAll(' ', 'zzzz');
   print(title);
+
+  String book = "My world's issues in a day\n\n";
+  String book2 = 'My world\'s issues in \r\na day';
+
+  print(book);
+  print(book2);
 }
